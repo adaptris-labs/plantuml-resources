@@ -1,0 +1,18 @@
+@startuml "interlok"
+sprite $interlok [64x64/16z] {
+bTLNeYmX20JGCWUe_I_tvM1FYnVFvtH2InWOGXsY_4LdBn6tKkTAMe9Fh6FEsHB2u8EKu7YwyuyPqVYaDU0eD2uA6Zz8mK4MFXGCVXe1biPFAIW_QJPg7toP
+A7ohs8YoltFohJaV5m296nqVWd0Z0y2WeuB9ZV6xCkL6CNP-5KyNqvexTzfnRHBmLr1kQC0VXUSzxFnYXVEuWiWTMNkPEnE_3PhPdIlCXyyFh8BQ1NGhkrKr
+To2ecTrAh2ABdTqgMxSDCxkLSL_Ubp-nEANSzz4cUpez2Qgdk-qCu-2BHcmLlcNnZ3Sxmwg7W-_8i1yElYV3OMVdod3QsRao53CxNuPY7dnVXjELdJtektgo
+iqTPdPxix56MkZ6qJ57j_-S8X_geDnf3onRa4ROOsTdo-ZYwFRJE6Mf1ZaiW0g-ar5609c5PG89R340emhRivqJAJYcNDfLaN7eY1TuQIrCA6c-bfIaxX9V6
+sfGby9B6DT2KUAa-UYBcw-eNnVTzUr2rs_KdF2LCNiZ6Q7IgHbivPMiokMZ2NXGwp0XB6FoALfnauT68-48HcaQ2GnxA3UqHJg5quOFq770bbjR759cZryEp
+tm4
+}
+
+!definelong Interlok(e_alias, e_label)
+rectangle "e_label\n<color:256695><$interlok></color>\n<size:12><i>[Interlok]</i>" as e_alias
+!enddefinelong
+
+!definelong InterlokParticipant(p_alias, p_label)
+participant "p_label\n<color:256695><$interlok></color>\n<size:12><i>[Interlok]</i>" as p_alias
+!enddefinelong
+@enduml

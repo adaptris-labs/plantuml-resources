@@ -1,1 +1,1 @@
-# plantuml-resources
+# PlantUML Resources
